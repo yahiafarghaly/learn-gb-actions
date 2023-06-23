@@ -1,0 +1,8 @@
+name: Test Application Build and Run
+run-name: Building The App.
+on: [push]
+jobs:
+  Build_APP:
+    runs-on: ubuntu-latest
+    steps:
+      - run: build_app.sh
